@@ -1,0 +1,10 @@
+requests
+urllib
+ctypes
+webbrowser
+os 
+shlex
+time
+json
+sys
+colorama
