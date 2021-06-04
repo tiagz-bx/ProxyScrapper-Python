@@ -1,7 +1,3 @@
-# Author : NAOY-TIAGZ
-# Discord : NAOY#0001 </> TIAGZ#0001
-# Github : https://github.com/NAOYY ... https://github.com/tn-nt
-#module
 from urllib.request import Request, urlopen
 from base64 import b64decode
 import requests
@@ -17,10 +13,42 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 #module début du script
-
-print(Fore.CYAN + 'WELCOME TO THE NSI SCRAPER ITS A PROXY SCRAPER USED API KEY MADE BY NAOY#0001 AND </> TIAGZ-UHQ#0001') 
-time.sleep(1) # Sleep for 3 seconds
+Title = "Proxy scrapper by tiagz join --> Private - Rewards discord.gg/wcJEZnW7aJ"
+ctypes.windll.kernel32.SetConsoleTitleW(Title)
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.RED + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.YELLOW + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.LIGHTMAGENTA_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ')
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.RED + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.YELLOW + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.LIGHTMAGENTA_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ')
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.RED + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.YELLOW + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.LIGHTMAGENTA_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ')
+print(Fore.CYAN + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.RED + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+time.sleep(1)
 os.system('cls')
+print(Fore.LIGHTBLACK_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.LIGHTMAGENTA_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.BLUE + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.LIGHTMAGENTA_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ') 
+print(Fore.LIGHTBLACK_EX + 'For other tools join --> Private - Rewards discord.gg/wcJEZnW7aJ')    
 
 def get_proxies(type_proxy):
     r = requests.get(url + type_proxy)
@@ -28,7 +56,6 @@ def get_proxies(type_proxy):
     text = r.text
     text = text.replace("\n","")
 
-    # EXPORT PROXYS
     with open (f"./output/{type_proxy}.txt","w") as f:
         f.write(text)
 
@@ -39,27 +66,12 @@ def get_proxies(type_proxy):
                 lines = lines + 1
             f.close()
             print('Scraped {} '.format(lines) + 'proxies.')
-    
+url = "https://api.proxyscrape.com/?request=getproxies&timeout=3000&country=all&ssl=all&anonymity=all&proxytype="  
 
-# Proxysscrape
-url = "https://api.proxyscrape.com/?request=getproxies&timeout=100&country=all&ssl=all&anonymity=all&proxytype="
-# Proxyslist
-# ProxyScrape2
-
-
-print("                                                                                      ╔═══════════════╗ ")
-print("                                                                                         Version 1.0    ")
-print("                                                                                      ╚═══════════════╝ ")                                                                                                                                                                                
-                                                                                        
-
-print("""
-		██████╗ ██████╗  ██████╗ ██╗  ██╗██╗   ██╗███████╗ ██████╗██████╗  █████╗ ██████╗ 
-		██╔══██╗██╔══██╗██╔═══██╗╚██╗██╔╝╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗
-		██████╔╝██████╔╝██║   ██║ ╚███╔╝  ╚████╔╝ ███████╗██║     ██████╔╝███████║██████╔╝
-		██╔═══╝ ██╔══██╗██║   ██║ ██╔██╗   ╚██╔╝  ╚════██║██║     ██╔══██╗██╔══██║██╔═══╝ 
-		██║     ██║  ██║╚██████╔╝██╔╝ ██╗   ██║   ███████║╚██████╗██║  ██║██║  ██║██║     
-		╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     
-		                                                                                  
+print("")
+print("")
+print(Fore.WHITE + """
+                                                                                  
 		 █████╗ ██████╗ ██╗    ███████╗ ██████╗██████╗  █████╗ ██████╗ ███████╗██████╗    
 		██╔══██╗██╔══██╗██║    ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗   
 		███████║██████╔╝██║    ███████╗██║     ██████╔╝███████║██████╔╝█████╗  ██████╔╝   
@@ -68,7 +80,8 @@ print("""
 		╚═╝  ╚═╝╚═╝     ╚═╝    ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝   
                                                                                   
 """)
-type_proxy = input("                [http] - [https] - [socks4] - [socks5]:   \n\n >> ")
+print("")
+type_proxy = input('                                    ' + Fore.LIGHTRED_EX + '[http]' + Fore.LIGHTYELLOW_EX + '-' + Fore.LIGHTBLACK_EX + '[https]' + Fore.LIGHTYELLOW_EX + '-' + Fore.LIGHTRED_EX + '[socks4]' + Fore.LIGHTYELLOW_EX + '-' + Fore.LIGHTBLACK_EX + '[socks5]' + Fore.LIGHTYELLOW_EX + ':'   + Fore.LIGHTBLACK_EX + '\n\n  </> ')
 
 
 #HTTP
